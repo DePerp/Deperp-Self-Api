@@ -14,9 +14,9 @@ const testnetConfig: Config = {
 }
 
 const mainnetConfig: Config = {
-    rpcUrl: 'https://mainnet.base.org', //Rate limited and not for production systems.
+    rpcUrl: 'https://1rpc.io/base', //Rate limited and not for production systems.
     chainId: 8453,
-    address: '0x40c453c3d8164D458869Dbe2cbf430c6B1e6e1b9'
+    address: '0xBd4Ed30B43163c88e766D3FEaaC1D2d73dE0453e'
 }
 
 export const getConfig = () => {
