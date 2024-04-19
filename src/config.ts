@@ -9,14 +9,14 @@ type Config = {
 
 const testnetConfig: Config = {
     rpcUrl: 'https://1rpc.io/base-goerli',
-    chainId: 84531,
-    address: '0x40c453c3d8164D458869Dbe2cbf430c6B1e6e1b9'
+    chainId: , // add testnet 
+    address: '' // add testnet 
 }
 
 const mainnetConfig: Config = {
     rpcUrl: 'https://1rpc.io/base', //Rate limited and not for production systems.
     chainId: 8453,
-    address: '0xBd4Ed30B43163c88e766D3FEaaC1D2d73dE0453e'
+    address: '0x5Dc939df0cf253873cf77B786A24d51BaA72cF75' // Taurus GA
 }
 
 export const getConfig = () => {
